@@ -25,7 +25,7 @@ jobs:
       run: python setup.py sdist
 
     - name: Push package to Cloudsmith
-      uses: cloudsmith-io/github-action@v3
+      uses: cloudsmith-io/github-action@v1
       with:
         owner: interview-keshav
         repo: cloudsmith-deploy
