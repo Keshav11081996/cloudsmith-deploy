@@ -28,6 +28,6 @@ jobs:
       uses: cloudsmith-io/github-action@v3
       with:
         owner: interview-keshav
-        repo: cloudsmit-deploy
+        repo: cloudsmith-deploy
         api-key: ${{ secrets.CLOUDSMITH_API_KEY }}
         source: dist/*.tar.gz
