@@ -30,4 +30,5 @@ jobs:
         owner: interview-keshav
         repo: cloudsmith-deploy
         api-key: ${{ secrets.CLOUDSMITH_API_KEY }}
-        file: dist/*.tar.gz  
+        file: dist/*.tar.gz  # Path to your package file
+        format: tar        # Specify the format of the package (tar for Python packages)
