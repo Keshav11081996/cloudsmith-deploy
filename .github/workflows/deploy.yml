@@ -30,4 +30,4 @@ jobs:
         owner: interview-keshav
         repo: cloudsmith-deploy
         api-key: ${{ secrets.CLOUDSMITH_API_KEY }}
-        source: dist/*.tar.gz
+        file: dist/*.tar.gz  
